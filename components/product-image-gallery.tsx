@@ -82,7 +82,7 @@ export default function ProductImageGallery({ images }: ProductImageGalleryProps
               key={index}
               onClick={() => setCurrentImage(index)}
               className={cn(
-                "relative overflow-hidden rounded-md h-20 w-20 flex-shrink-0 border-2 transition-all",
+                "relative overflow-hidden rounded-md h-15 w-20 flex-shrink-0 border-2 transition-all",
                 currentImage === index ? "border-primary" : "border-transparent"
               )}
             >

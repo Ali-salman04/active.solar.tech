@@ -16,8 +16,8 @@ export interface Product {
 // Inverter products
 const inverters: Product[] = [
   {
-    id: 'inv-solar-edge-10k',
-    name: 'Grid-Tied Solar Inverter 10KW - 15KW - 25KW',
+    id: 'inv-solar-edge-3.8k',
+    name: '3.8KW SOLAR MPPT INVERTER',
     brand: 'SolarMax',
     category: 'inverters',
     description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
@@ -38,17 +38,16 @@ const inverters: Product[] = [
     },
     price: 2799.99,
     rating: 4.8,
-  imageSrc: '/images/solarmaxmain.jpg',
+  imageSrc: '/images/solarmax0.jpg',
   gallery: [
-    '/images/solarmax1.jpg',
-    '/images/solarmax1.jpg',
-    '/images/solarmaxsheet1.jpg',
+    '/images/solarmax0.jpg',
+    '/images/solarmaxsheet0.jpg',
 
   ]
   },
    {
     id: 'inv-solar-edge',
-    name: 'Grid-Tied Solar Inverter 10KW - 15KW - 25KW',
+    name: '1.5KW SOLAR MPPT INVERTER',
     brand: 'SolarMax',
     category: 'inverters',
     description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
@@ -72,9 +71,66 @@ const inverters: Product[] = [
   imageSrc: '/images/solarmax1.jpg',
   gallery: [
     '/images/solarmax1.jpg',
-    '/images/solarmax1.jpg',
     '/images/solarmaxsheet1.jpg',
 
+  ]
+},
+ {
+    id: 'inv-solar-edg',
+    name: '3KW SOLAR MPPT INVERTER',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/solarmax2.jpg',
+  gallery: [
+    '/images/solarmax2.jpg',
+    '/images/solarmaxsheet2.jpg',
+  ]
+},
+ {
+    id: 'inv-solar-6kw',
+    name: '6KW SOLAR MPPT INVERTER',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/solarmax3.jpg',
+  gallery: [
+    '/images/solarmax3.jpg',
+    '/images/solarmaxsheet3.jpg',
   ]
 },
   {

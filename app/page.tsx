@@ -8,13 +8,13 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export default function Home() {
   const productCategories = [
-    {
-      id: 'inverters',
-      title: 'Solar Inverters',
-      description: 'High-efficiency inverters for residential and commercial use',
-      icon: <Zap className="h-10 w-10 text-chart-1" />,
-      imageSrc: 'https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    },
+     {
+    id: 'inverters',
+    title: 'Solar Inverters',
+    description: 'High-efficiency inverters for residential and commercial use',
+    icon: <Zap className="h-10 w-10 text-chart-1" />,
+    imageSrc: '/images/inverter.jpg',
+  },
     {
       id: 'panels',
       title: 'Solar Panels',
@@ -51,7 +51,7 @@ export default function Home() {
 
   // Function to handle WhatsApp click
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/92104866961', '_blank', 'noopener,noreferrer');
+    window.open('https://wa.me/923104866961', '_blank', 'noopener,noreferrer');
   };
 
   return (

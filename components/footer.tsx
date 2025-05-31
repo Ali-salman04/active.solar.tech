@@ -87,13 +87,13 @@ const Footer = () => {
               <li className="flex items-start space-x-2">
                 <MapPin className="h-5 w-5 text-muted-foreground shrink-0 mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  123 Solar Street, Green City, 12345
+                  Mall Road Lahore (Pakistan)
                 </span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-muted-foreground" />
                 <span className="text-sm text-muted-foreground">
-                  +1 (555) 123-4567
+                  +92 3104866961
                 </span>
               </li>
               <li className="flex items-center space-x-2">
@@ -110,7 +110,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Active Technology Solar. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          {/* <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
             </Link>
@@ -120,7 +120,7 @@ const Footer = () => {
             <Link href="/sitemap" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Sitemap
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

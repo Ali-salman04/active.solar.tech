@@ -5,9 +5,10 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
-import { MessageSquare, ChevronLeft, Star, Truck, Shield, Clock } from 'lucide-react';
+import { MessageSquare, Phone, ChevronLeft, Star, Truck, Shield, Clock } from 'lucide-react';
 import ProductImageGallery from '@/components/product-image-gallery';
 import RelatedProducts from '@/components/related-products';
+
 
 type ProductPageProps = {
   params: {
@@ -19,7 +20,7 @@ type ProductPageProps = {
 // Add generateStaticParams function for static site generation
 export async function generateStaticParams() {
   const products = getAllProducts();
-  
+
   return products.map((product) => ({
     category: product.category.toLowerCase(),
     productId: product.id,
@@ -28,13 +29,13 @@ export async function generateStaticParams() {
 
 export default function ProductPage({ params }: ProductPageProps) {
   const { category, productId } = params;
-  
+
   const product = getProductById(productId);
-  
+
   if (!product) {
     return notFound();
   }
-  
+
   // Get related products (same category, different product)
   const relatedProducts = getProductsByCategory(category)
     .filter(p => p.id !== productId)
@@ -43,7 +44,7 @@ export default function ProductPage({ params }: ProductPageProps) {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mb-6">
-        <Link 
+        <Link
           href={`/catalog/${category}`}
           className="flex items-center text-sm text-muted-foreground hover:text-primary transition-colors"
         >
@@ -55,7 +56,7 @@ export default function ProductPage({ params }: ProductPageProps) {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Product Image Gallery */}
         <ProductImageGallery images={product.gallery} />
-        
+
         {/* Product Information */}
         <div className="space-y-6">
           <div>
@@ -69,19 +70,19 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             </div>
             <h1 className="text-3xl font-bold">{product.name}</h1>
-            <p className="text-2xl font-medium mt-2">${product.price.toLocaleString()}</p>
+            {/* <p className="text-2xl font-medium mt-2">${product.price.toLocaleString()}</p> */}
           </div>
 
           <p className="text-muted-foreground">{product.description}</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+            {/* <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
               <Truck className="h-5 w-5 text-muted-foreground" />
               <div className="text-sm">
                 <p className="font-medium">Free Shipping</p>
                 <p className="text-muted-foreground">On orders over $500</p>
               </div>
-            </div>
+            </div> */}
             <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
               <Shield className="h-5 w-5 text-muted-foreground" />
               <div className="text-sm">
@@ -99,11 +100,16 @@ export default function ProductPage({ params }: ProductPageProps) {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="flex-1 bg-chart-1 hover:bg-chart-1/90">Add to Quote</Button>
-            <Button size="lg" variant="outline" className="flex-1">
+            <a
+              href="https://wa.me/923104866961" // Replace with your WhatsApp number
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center flex-1 border rounded-md px-4 py-2 text-sm font-medium hover:bg-muted transition-colors"
+            >
               <MessageSquare className="h-4 w-4 mr-2" />
               Contact Sales
-            </Button>
+            </a>
+
           </div>
         </div>
       </div>
