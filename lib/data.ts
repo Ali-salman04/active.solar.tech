@@ -38,10 +38,10 @@ const inverters: Product[] = [
     },
     price: 2799.99,
     rating: 4.8,
-  imageSrc: '/images/solarmax0.jpg',
+  imageSrc: '/images/inverter/solarmax/solarmax0.jpg',
   gallery: [
-    '/images/solarmax0.jpg',
-    '/images/solarmaxsheet0.jpg',
+    '/images/inverter/solarmax/solarmax0.jpg',
+    '/images/inverter/solarmax/solarmaxsheet0.jpg',
 
   ]
   },
@@ -68,10 +68,10 @@ const inverters: Product[] = [
     },
     price: 2799.99,
     rating: 4.8,
-  imageSrc: '/images/solarmax1.jpg',
+  imageSrc: '/images/inverter/solarmax/solarmax1.jpg',
   gallery: [
-    '/images/solarmax1.jpg',
-    '/images/solarmaxsheet1.jpg',
+    '/images/inverter/solarmax/solarmax1.jpg',
+    '/images/inverter/solarmax/solarmaxsheet1.jpg',
 
   ]
 },
@@ -98,10 +98,10 @@ const inverters: Product[] = [
     },
     price: 2799.99,
     rating: 4.8,
-  imageSrc: '/images/solarmax2.jpg',
+  imageSrc: '/images/inverter/solarmax/solarmax2.jpg',
   gallery: [
-    '/images/solarmax2.jpg',
-    '/images/solarmaxsheet2.jpg',
+    '/images/inverter/solarmax/solarmax2.jpg',
+    '/images/inverter/solarmax/solarmaxsheet2.jpg',
   ]
 },
  {
@@ -127,10 +127,273 @@ const inverters: Product[] = [
     },
     price: 2799.99,
     rating: 4.8,
-  imageSrc: '/images/solarmax3.jpg',
+  imageSrc: '/images/inverter/solarmax/solarmax3.jpg',
   gallery: [
-    '/images/solarmax3.jpg',
-    '/images/solarmaxsheet3.jpg',
+    '/images/inverter/solarmax3.jpg',
+    '/images/inverter/solarmaxsheet3.jpg',
+  ]
+},
+ {
+    id: 'inv-solar-8kw',
+    name: '8KW SOLAR MPPT INVERTER',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax4.jpg',
+  gallery: [
+    '/images/inverter/solarmax/solarmax4.jpg',
+    '/images/inverter/solarmax/solarmaxsheet4.jpg',
+  ]
+},
+ {
+    id: 'inv-solar-11kw',
+    name: '11KW SOLAR MPPT INVERTER',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax5.jpg',
+  gallery: [
+    '/images/inverter/solarmax/solarmax5.jpg',
+    '/images/inverter/solarmax/solarmaxsheet5.jpg',
+  ]
+},
+ {
+    id: 'inv-solar-dual-8kw',
+    name: 'SM-ONYX-DUAL-8KW',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax6.jpg',
+  gallery: [
+    '/images/inverter/solarmax/solarmax6.jpg',
+    '/images/inverter/solarmax/solarmaxsheet6.jpg',
+  ]
+},
+ {
+    id: 'inv-solar-sm-6kw',
+    name: 'SM-SOLON-UL-6KW',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax7.jpg',
+  gallery: [
+     '/images/inverter/solarmax/solarmax7.jpg',
+    '/images/inverter/solarmax/solarextrasheet7.jpg',
+    '/images/inverter/solarmax/solarmaxsheet7.jpg',
+  ]
+},
+{
+    id: 'inv-solar-hyb-6kw',
+    name: '6KW HYBRID INVERTER',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images//inverter/solarmax/solarmax8.jpg',
+  gallery: [
+     '/images/inverter/solarmax/solarmax8.jpg',
+    '/images/inverter/solarmax/solarextrasheet8.jpg',
+    '/images/inverter/solarmax/solarmaxsheet8.jpg',
+  ]
+},
+{
+    id: 'inv-solar-dual-4kw',
+    name: 'HYBRID INVERTER DUAL 4KW',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax9.jpg',
+  gallery: [
+     '/images/inverter/solarmax/solarmax9.jpg',
+    '/images/inverter/solarmax/solarmaxsheet9.jpg',
+  ]
+},
+{
+    id: 'inv-solar-dual-pv-6kw',
+    name: 'DUAL 6KW MPPT PV HYBRID INVERTER',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax10.jpg',
+  gallery: [
+     '/images/inverter/solarmax/solarmax10.jpg',
+    '/images/inverter/solarmax/solarmaxsheet10.jpg',
+  ]
+},
+{
+    id: 'inv-solar-ul-10kw',
+    name: 'SM-ONYX-UL-10KW',
+    brand: 'SolarMax',
+    category: 'inverters',
+    description: 'High-efficiency grid-tied inverter with integrated safety features and monitoring capabilities.',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmax11.jpg',
+  gallery: [
+     '/images/inverter/solarmax/solarmax11.jpg',
+    '/images/inverter/solarmax/solarmaxsheet11.jpg',
+  ]
+},
+{
+    id: 'inv-solar-b-5.12kw',
+    name: 'LiFePO(4) LFP',
+    brand: 'SolarMax Battery',
+    category: 'inverters',
+    description: 'The most advanced Lithium Iron Phosphate Module For home and industrial energy storage',
+    features: [
+      'HD-Wave technology for high efficiency',
+      'Built-in module-level monitoring',
+      'Integrated arc fault protection',
+      'Compact and lightweight design',
+      'Remote monitoring and control via mobile app'
+    ],
+    specifications: {
+      'AC Output Power': '3000W',
+      'Maximum Efficiency': '98.3%',
+      'Input Voltage Range': '230 VAC',
+      'Weight': '21.7 kg',
+      'Dimensions': '540 x 315 x 260 mm',
+      'Warranty': '2 years'
+    },
+    price: 2799.99,
+    rating: 4.8,
+  imageSrc: '/images/inverter/solarmax/solarmaxbatter1.jpg',
+  gallery: [
+     '/images/inverter/solarmax/solarmaxbatter1.jpg',
+    '/images/inverter/solarmax/solarmaxbatterysheet1.jpg',
   ]
 },
   {
