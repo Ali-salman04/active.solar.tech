@@ -6,7 +6,7 @@ import ProductCard from '@/components/product-card';
 import BrandFilter from './brand-filter';
 
 export const dynamicParams = true;
-
+export const dynamic = 'force-dynamic';
 type CategoryParams = {
   params: {
     category: string;
