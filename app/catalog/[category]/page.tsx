@@ -5,27 +5,31 @@ import { getProductsByCategory, getBrandsForCategory } from '@/lib/data';
 import ProductCard from '@/components/product-card';
 import BrandFilter from './brand-filter';
 
-export const dynamicParams = true;
-export const dynamic = 'force-dynamic';
-type CategoryParams = {
+// Alternative export syntax for Next.js 13.x compatibility
+const generateStaticParams = async () => {
+  return [
+    { category: 'inverters' },
+    { category: 'panels' },
+    { category: 'accessories' }
+  ];
+};
+
+// Export the function
+export { generateStaticParams };
+
+// Static generation configuration
+export const dynamicParams = false;
+
+interface CategoryPageProps {
   params: {
     category: string;
   };
   searchParams: {
     brand?: string;
   };
-};
-
-// Add generateStaticParams function for static site generation
-export async function generateStaticParams() {
-  return [
-    { category: 'inverters' },
-    { category: 'panels' },
-    { category: 'accessories' }
-  ];
 }
 
-export default function CategoryPage({ params, searchParams }: CategoryParams) {
+const CategoryPage = ({ params, searchParams }: CategoryPageProps) => {
   const { category } = params;
   const selectedBrand = searchParams.brand || 'all';
   
@@ -87,4 +91,6 @@ export default function CategoryPage({ params, searchParams }: CategoryParams) {
       </div>
     </div>
   );
-}
+};
+
+export default CategoryPage;
